@@ -37,3 +37,54 @@
 		-ms-filter: none;
 		filter: none;
 	}
+
+/* Additional */
+
+	#mission-target, #skills-target, #goals-target, #projects-target, #contact-target {
+		position: relative;
+		top: -50px;
+	}
+
+	.bi {
+		font-size: 1.5rem;
+	}
+
+	.subheading {
+		font-size: 1.5rem !important;
+		margin-bottom: 0;
+	}
+
+	/* .typed-out1{
+		overflow: hidden;
+		border-right: .15rem solid grey;
+		white-space: nowrap;
+		animation: typing1 1s forwards;
+		width: 0;
+	}
+
+	.typed-out2{
+		overflow: hidden;
+		border-right: .15rem solid grey;
+		white-space: nowrap;
+		animation: typing2 3s forwards;
+		width: 0;
+	}
+
+	@keyframes typing1 {
+		from { width: 0 }
+		to { width: 75% }
+	}
+
+	@keyframes typing2 {
+		from { width: 0 }
+		to { width: 68% }
+	} */
+
+	#prof-img {
+		width: clamp(100px, 40%, 200px);
+		padding: 0;
+		margin: auto auto 10px;
+		/* Using --text-theme below */
+		border: rgba(0, 128, 0, 0.3) solid 15px;
+		border-radius: 50%;
+	  }
